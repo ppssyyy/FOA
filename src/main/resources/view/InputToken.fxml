@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minWidth="330.9999000000025" prefHeight="239.99980000000505" prefWidth="330.9999000000025" styleClass="background" xmlns:fx="http://javafx.com/fxml" fx:controller="com.feng.openaaa.controller.InputTokenController">
+  <children>
+    <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <bottom>
+        <AnchorPane prefHeight="59.0" prefWidth="355.0" styleClass="top-segment">
+          <children>
+            <Button id="loginAction" fx:id="button" defaultButton="true" mnemonicParsing="false" onAction="#loginAction" prefWidth="102.0" styleClass="button-middle" text="%inputtoken.submit" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="114.5" AnchorPane.rightAnchor="114.5" />
+          </children>
+        </AnchorPane>
+      </bottom>
+      <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0">
+          <children>
+            <TextField id="tokenFieldtokenField" fx:id="tokenField" alignment="CENTER" prefHeight="27.0" prefWidth="200.0" AnchorPane.leftAnchor="77.5" AnchorPane.rightAnchor="77.5" AnchorPane.topAnchor="136.0" />
+            <ImageView fx:id="tokenView" fitHeight="90.00001525878906" fitWidth="167.0" onMouseClicked="#tokenViewClickedAction" pickOnBounds="true" AnchorPane.leftAnchor="95.5" AnchorPane.rightAnchor="95.5" AnchorPane.topAnchor="14.0" />
+            <Label fx:id="messageLabel" alignment="CENTER" layoutX="120.0" layoutY="113.0" prefWidth="117.5" styleClass="waring-label" />
+          </children>
+        </AnchorPane>
+      </center>
+    </BorderPane>
+  </children>
+  <stylesheets>
+    <URL value="@css/ui.css" />
+  </stylesheets>
+</AnchorPane>
