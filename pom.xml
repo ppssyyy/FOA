@@ -3,9 +3,9 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.feng.openaaa</groupId>
-	<artifactId>openaaa-javafx</artifactId>
+	<artifactId>foa</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<name>opeanAAA power by javafx</name>
+	<name>JavaFX OpenAAA</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
